@@ -76,6 +76,8 @@ safari:
 textedit:
   new_document:
     format: plain text
+app_store:
+  automatic_updates: true
 xcode:
   themes:
     default_light:
