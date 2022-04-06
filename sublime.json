@@ -1,0 +1,17 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_size": 10,
+	"tab_size": 2,
+	"word_wrap": true,
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+	"theme": "auto",
+	"color_scheme": "auto",
+	"dark_color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"light_color_scheme": "Packages/Color Scheme - Default/Breakers.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}

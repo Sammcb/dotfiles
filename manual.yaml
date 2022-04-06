@@ -1,0 +1,120 @@
+system:
+  desktop_and_screen_saver:
+    screen_saver:
+      show_screen_saver:
+        enabled: true
+        after: 10 min
+      selected: drift
+  dock_and_menu_bar:
+    bluetooth:
+      show_in_menu_bar: true
+    battery:
+      show_in_menu_bar: true
+      show_percentage: true
+    clock:
+      display_time_with_seconds: true
+  siri:
+    listen_for_hey_siri: true
+  security_and_privacy:
+    general:
+      use_apple_watch_to_unlock_apps_and_your_mac: true
+      allow_apps_downloaded_from: app store and identified developers
+  trackpad:
+    all_gestures: true
+  mouse:
+    all_gestures: true
+  displays:
+    night_shift:
+      schedule: sunset to sunrise
+  battery:
+    battery:
+      turn_display_off_after: 15 min
+    power_adapter:
+      turn_display_off_after: 15 min
+finder:
+  general:
+    new_finder_windows_show: home
+  sidebar:
+    favorites:
+      home: true
+    icloud:
+      shared: false
+terminal:
+  profiles:
+    pro:
+      default: true
+      text:
+        background:
+          color: '#000000'
+          opacity: 70%
+          blur: 50%
+        selection:
+          color: '#005e68'
+          opacity: 80%
+        cursor:
+          color: '#4d4d4d'
+          opacity: 80%
+activity_monitor:
+  view:
+    dock_icon: show cpu usage
+safari:
+  general:
+    safari_opens_with: all windows from last session
+    new_windows_open_with: start page
+    new_tabs_open_with: start page
+    homepage: ''
+    remove_download_list_items: upon successful download
+  tabs:
+    tab_layout: compact
+  search:
+    search_engine: ecosia
+  websites:
+    notifications:
+      allow_websites_to_ask_for_permission_to_send_notifications: false
+  advanced:
+    show_develop_menu_in_menu_bar: true
+textedit:
+  new_document:
+    format: plain text
+xcode:
+  themes:
+    default_light:
+      source_editor:
+        font:
+          size: 10 pt
+      console:
+        font:
+          size: 10 pt
+    default_dark:
+      source_editor:
+        font:
+          size: 10 pt
+      console:
+        font:
+          size: 10pt
+  text_editing:
+    indentation:
+      prefer_indent_using: tabs
+      tab_width: 2
+      indent_width: 2
+adguard_for_safari:
+  filters:
+    allowlist: [www.ecosia.org]
+    ad_blocking: [adguard base filter, adguard mobile ads filter, easylist]
+    privacy: [adguard tracking protection filter, easyprivacy]
+    social_widgets: [adguard social media filter]
+    annoyances: [adguard annoyances filter, adblock warning removal list, easylist cookie list]
+    security: [online malicious url blocklist, spam404, nocoin filter list]
+    other: [adguard dns filter]
+docker_desktop:
+  general:
+    use_docker_compose_v2: true
+    send_usage_statistics: false
+    show_weekly_tips: false
+  resources:
+    advanced:
+      cpus: max
+      memory: 16 GB
+  experimental_features:
+    use_the_new_virtualization_framework: true
+    enable_virtiofs_accelerated_directory_sharing: true
