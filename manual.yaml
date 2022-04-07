@@ -35,10 +35,9 @@ finder:
   general:
     new_finder_windows_show: home
   sidebar:
-    favorites:
-      home: true
-    icloud:
-      shared: false
+    favorites: [airdrop, appications, downloads, home]
+    icloud: [icloud drive, desktop, documents]
+    locations: [hard disks, external drives, cds dvds and ios devices]
 terminal:
   profiles:
     pro:
